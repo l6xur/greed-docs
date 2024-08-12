@@ -1,0 +1,61 @@
+---
+title: "Fake Permissions"
+description: "The list of permissions that you can use to grant fake permissions to a role"
+icon: "hammer"
+---
+
+When running the `fakepermissions` command you will be asked to provide a permission, for example: `,fakepermissions @Moderator manage_nicknames`
+
+<Warning>This command only allows the user to bypass permission checks in **greed** they don't actually get the permission, for example: A moderator gets `ban_members` permission through fake permissions, they will only be able to ban users by running `,ban` through **greed** and not any other bot or the Discord client.</Warning>
+
+| Permission                            | Normal Name                 | Example Action                                        |
+| ------------------------------------- | --------------------------- | ----------------------------------------------------- |
+| `create_instant_invite`               | Create Instant Invite       | Used to generate invite links for the server          |
+| `kick_members`                        | Kick Members                | Used to remove members from the server                |
+| `ban_members`                         | Ban Members                 | Used to run the ban command                           |
+| `administrator`                       | Administrator               | Grants all permissions                                |
+| `manage_channels`                     | Manage Channels             | Used to create, edit, or delete channels              |
+| `manage_guild`                        | Manage Server               | Used to change server settings                        |
+| `add_reactions`                       | Add Reactions               | Used to add reactions to messages                     |
+| `view_audit_log`                      | View Audit Log              | Used to view the server's audit logs                  |
+| `priority_speaker`                    | Priority Speaker            | Grants priority in voice channels                     |
+| `stream`                              | Stream                      | Used to stream video in a voice channel               |
+| `read_messages`                       | Read Messages               | Allows reading messages in text channels              |
+| `send_messages`                       | Send Messages               | Used to send messages in text channels                |
+| `send_tts_messages`                   | Send TTS Messages           | Used to send text-to-speech messages                  |
+| `manage_messages`                     | Manage Messages             | Used to delete or pin messages                        |
+| `embed_links`                         | Embed Links                 | Allows embedding links in messages                    |
+| `attach_files`                        | Attach Files                | Used to upload files in text channels                 |
+| `read_message_history`                | Read Message History        | Allows reading the message history                    |
+| `mention_everyone`                    | Mention Everyone            | Used to mention `@everyone` and `@here`               |
+| `external_emojis`                     | Use External Emojis         | Allows using emojis from other servers                |
+| `view_guild_insights`                 | View Server Insights        | Used to view server analytics and insights            |
+| `connect`                             | Connect                     | Used to connect to a voice channel                    |
+| `speak`                               | Speak                       | Used to speak in a voice channel                      |
+| `mute_members`                        | Mute Members                | Used to mute other members in voice channels          |
+| `deafen_members`                      | Deafen Members              | Used to deafen other members in voice channels        |
+| `move_members`                        | Move Members                | Used to move members between voice channels           |
+| `use_voice_activation`                | Use Voice Activation        | Allows using voice activity instead of push-to-talk   |
+| `change_nickname`                     | Change Nickname             | Used to change your own nickname                      |
+| `manage_nicknames`                    | Manage Nicknames            | Used to change other members' nicknames               |
+| `manage_roles`                        | Manage Roles                | Used to create, edit, or delete roles                 |
+| `manage_webhooks`                     | Manage Webhooks             | Used to create, edit, or delete webhooks              |
+| `manage_expressions`                  | Manage Expressions          | Used to manage emojis and stickers                    |
+| `use_application_commands`            | Use Application Commands    | Used to run slash commands                            |
+| `request_to_speak`                    | Request to Speak            | Used to request to speak in a stage channel           |
+| `manage_events`                       | Manage Events               | Used to create, edit, or delete events                |
+| `manage_threads`                      | Manage Threads              | Used to manage threads                                |
+| `create_public_threads`               | Create Public Threads       | Used to create public threads                         |
+| `create_private_threads`              | Create Private Threads      | Used to create private threads                        |
+| `external_stickers`                   | Use External Stickers       | Allows using stickers from other servers              |
+| `send_messages_in_threads`            | Send Messages in Threads    | Used to send messages in threads                      |
+| `use_embedded_activities`             | Use Embedded Activities     | Used to start activities like games in voice channels |
+| `moderate_members`                    | Moderate Members            | Used to timeout members                               |
+| `view_creator_monetization_analytics` | View Monetization Analytics | Used to view monetization analytics                   |
+| `use_soundboard`                      | Use Soundboard              | Allows using soundboard in voice channels             |
+| `create_expressions`                  | Create Expressions          | Used to create custom emojis or stickers              |
+| `create_events`                       | Create Events               | Used to create scheduled events                       |
+| `use_external_sounds`                 | Use External Sounds         | Allows using sounds from other servers                |
+| `send_voice_messages`                 | Send Voice Messages         | Used to send voice messages in text channels          |
+| `send_polls`                          | Send Polls                  | Used to create and send polls                         |
+| `use_external_apps`                   | Use External Apps           | Allows using apps from other servers                  |
